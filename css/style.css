@@ -47,15 +47,7 @@ main {
   padding: 20px;
   margin-top: 10px;
 }
-
-.chart {
-  height: 500px;
-  margin: 20px auto;
-  background-color: white;
-  opacity: .8;
-  padding: 10px;
-}
-main h2 {
+main h2, main h3 {
   padding: 5px;
   font-family: 'Lato', sans-serif;
   font-weight: 900;
@@ -63,6 +55,28 @@ main h2 {
   opacity: .8;
   text-align: center;
 }
+main h2 {
+  margin-bottom: 0;
+}
+main h3 {
+  margin-top: 0;
+}
+#btnContainer {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+.viewChangeBtn {
+  padding: 5px;
+}
+.chart {
+  height: 500px;
+  margin: 20px auto;
+  background-color: white;
+  opacity: .8;
+  padding: 20px;
+}
+
 footer {
   background-color: #2b5c03;
   color: white;

@@ -26,10 +26,12 @@
     <main>
       <h2>Faiplay in der Bundesliga</h2>
       <h3>Fouls, rote und gelbe Karten</h3>
-      <div class="btnContainer">
-        <button id="btnAll">alle Saisons</button>
-        <button id="btnTimeline">Verteilung Saison-Zeitstrahl</button>
-        <button id="btnSeason">Saisonwahl</button>
+      <div id="btnContainer">
+        <button class="viewChangeBtn" id="btnAll">Vereien über alle Saisons</button>
+        <button class="viewChangeBtn" id="btnTimeline">Vereine Im Verlauf einer Saison</button>
+        <button class="viewChangeBtn" id="btnSeason">Auswahl einer bestimmten Saison</button>
+        <button class="viewChangeBtn" id="btnPlayers">Verteilung nach Spielern</button>
+        <button class="viewChangeBtn" id="btnReferee">Verteilung nach Schiedsrichtern</button>
       </div>
       <div class="chart">
         <p>hier wird das aktualisierte chart (oder andere Force) geladen</p>
@@ -38,7 +40,9 @@
     <footer>
       <p>Design by: David Krammer, Anne Köthke, Daniela Krapf</p>
     </footer>
-    <script src="js/BubbleChartView.js"></script>
+    <script src="js/BubbleChartViewAll.js"></script>
+    <script src="js/BubbleChartViewTimeline.js"></script>
+    <script src="js/BubbleChartViewSeason.js"></script>
     <script src="js/BubbleChartController.js"></script>
     <script src="js/BubbleChartModel.js"></script>
     <script src="js/BubbleChart.js"></script>
