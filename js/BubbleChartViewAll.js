@@ -2,7 +2,7 @@
 
 var BubbleChart = BubbleChart | {};
 
-BubbleChart.BubbleChartView = function () {
+BubbleChart.BubbleChartViewAll = function () {
   "use strict";
   
   var that = {};
