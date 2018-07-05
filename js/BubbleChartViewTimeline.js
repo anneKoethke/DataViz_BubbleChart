@@ -7,5 +7,7 @@ BubbleChart.BubbleChartViewTimeline = function () {
   
   var that = {};
 
+  /* Darstellung einer Sasion als Timeline */
+
   return that;
 };

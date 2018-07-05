@@ -7,7 +7,9 @@ BubbleChart = (function () {
 
   var that = {};
 
-  // 
+  // hier daten laden?
+  // hier html-tag selektieren
+  // hier kommunikation zwischen den Modulen
 
   return that; 
 });

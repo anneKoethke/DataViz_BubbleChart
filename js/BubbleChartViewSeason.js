@@ -7,5 +7,9 @@ BubbleChart.BubbleChartViewSeason = function () {
   
   var that = {};
 
+  /* Hier soll eine bestimmte Saison selektierbar sein, also wie ..ViewAll, aber nur für eine Saison 
+    (BubbleHaufen aller vertretenen Vereine)
+  */
+
   return that;
 };
