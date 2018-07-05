@@ -1,6 +1,6 @@
 /* eslint-env browser */
 
-var BubbleChart = BubbleChart | {};
+var BubbleChart = BubbleChart || {};
 
 BubbleChart.BubbleChartViewTimeline = function () {
   "use strict";
