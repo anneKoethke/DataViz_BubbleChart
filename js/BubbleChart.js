@@ -7,8 +7,7 @@ BubbleChart = (function () {
 
   var that = {};
 
-  // functions
-
+  // 
 
   return that; 
 });
