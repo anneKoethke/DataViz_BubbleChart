@@ -7,10 +7,24 @@ BubbleChart.BubbleChartController = function () {
 
   var that = {};
 
-  function showMsg() {
-    console.log("in ");
+  function setButtonListeners(btnViewAll, btnViewTimeline, btnViewSeason) {
+    btnViewAll.addEventListener("click", onBtnViewAllClicked);
+    btnViewTimeline.addEventListener("click", onBtnViewTimelineClicked);
+    btnViewSeason.addEventListener("click", onBtnViewSeasonClicked);
   }
 
-  that.showMsg = showMsg;
+  function onBtnViewAllClicked() {
+    BubbleChart.getViewAllData();
+  }
+
+  function onBtnViewTimelineClicked() {
+    BubbleChart.getViewTimelineData();
+  }
+
+  function onBtnViewSeasonClicked() {
+    BubbleChart.getViewSeasonData();
+  }
+
+  that.setButtonListeners = setButtonListeners;
   return that;
 };
