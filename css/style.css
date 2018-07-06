@@ -72,6 +72,7 @@ main h3 {
 }
 .viewChangeBtn {
   padding: 5px;
+  font-size: .9em;
 }
 .chart {
   height: 500px;

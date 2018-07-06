@@ -17,8 +17,24 @@ BubbleChart = (function () {
     btnViewTimeline,
     btnViewSeason,
     // html elements concerning the chart div
-    charContainer,
-    selectClub;
+    infoText,
+    chartContainer,
+    currSeason,
+    // seasons
+    seasonArray = [
+      "Saison 2006/07",
+      "Saison 2007/08",
+      "Saison 2008/09",
+      "Saison 2009/10",
+      "Saison 2010/11",
+      "Saison 2011/12",
+      "Saison 2012/13",
+      "Saison 2013/14",
+      "Saison 2014/15",
+      "Saison 2015/16",
+      "Saison 2016/17",
+      "Saison 2017/18",
+    ];
   
   // Starting point of the BubbleChart
   function init() {
@@ -45,37 +61,38 @@ BubbleChart = (function () {
   }
 
   function initChartContainer() {
-    charContainer = document.querySelector("#chart");
+    chartContainer = document.querySelector("#chart");
   }
 
   function selectSeason() {
     removeInfoFromChartDiv();
     createSelect();
+
   }
 
+  // migth also be used to remove the charts when changign view
   function removeInfoFromChartDiv() {
-    charContainer.innerHTML = "";
+    chartContainer.innerHTML = "";
   }
 
   function createSelect() {
-    
+    let select = document.createElement("select");
+    chartContainer.appendChild(select);
+
     // controller -> welche Saison?
   }
   
   function getViewAllData() {
-    // model -> Daten bauen
     removeInfoFromChartDiv();
     console.log("all clicked");
   }
 
   function getViewTimelineData() {
-    // wahl der Saison
     selectSeason();
     console.log("timeline clicked");
   }
 
   function getViewSeasonData() {
-    // wahl der Saison
     selectSeason();
     console.log("season clicked");
   }
