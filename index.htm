@@ -17,7 +17,7 @@
       </div>
     </header>
     <nav>
-      <a href="bubble.htm"><div>Fouls und Karten</div></a>
+      <a href="bubble.htm" class="nav-selected"><div>Fouls und Karten</div></a>
       <a href="treemap.htm"><div>Heim- und Auswärtsstärke</div></a>
       <a href="sunburst.htm"><div>Halbzeit- vs. Endergebnis</div></a>
       <a href="barchart.htm"><div>Schüsse vs. Torschüsse</div></a>
@@ -44,5 +44,8 @@
     <script src="js/BubbleChartViewAll.js"></script>
     <script src="js/BubbleChartViewTimeline.js"></script>
     <script src="js/BubbleChartViewSeason.js"></script>
+    <script>
+      BubbleChart.init();
+    </script>
   </body>
 </html>

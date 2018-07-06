@@ -7,5 +7,10 @@ BubbleChart.BubbleChartModel = function () {
 
   var that = {};
 
+  function showMsg() {
+    console.log("in ");
+  }
+
+  that.showMsg = showMsg;
   return that;
 };

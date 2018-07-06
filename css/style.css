@@ -40,6 +40,11 @@ a {
   text-decoration: none;
   color: black;
 }
+.nav-selected {
+  background-color: #2b5c03;
+  color: white;
+  opacity: .8;
+}
 
 main {
   background: url('../img/bg.png') no-repeat center center fixed;
@@ -51,8 +56,7 @@ main h2, main h3 {
   padding: 5px;
   font-family: 'Lato', sans-serif;
   font-weight: 900;
-  background-color: white;
-  opacity: .8;
+  background: rgba(2550,250,250,0.8);
   text-align: center;
 }
 main h2 {

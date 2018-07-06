@@ -8,6 +8,10 @@ BubbleChart.BubbleChartViewTimeline = function () {
   var that = {};
 
   /* Darstellung einer Sasion als Timeline */
+  function showMsg() {
+    console.log("in ");
+  }
 
+  that.showMsg = showMsg;
   return that;
 };
