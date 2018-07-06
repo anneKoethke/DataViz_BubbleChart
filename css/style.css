@@ -63,8 +63,8 @@ main h3 {
 }
 #btnContainer {
   display: grid;
-  grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-template-columns:  1fr 1fr 1fr;
+  grid-gap: 20px;
 }
 .viewChangeBtn {
   padding: 5px;

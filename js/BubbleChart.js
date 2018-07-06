@@ -14,6 +14,8 @@ BubbleChart = (function () {
     viewReferees,
     viewSeason;
 
+  console.log("in BubbleChart");
+  
   // Starting point of the BubbleChart
   function init() {
     console.log("in init");
