@@ -2,8 +2,10 @@
   "use strict";
 
   var nodes,
+    chart = document.querySelector("#chart"),
     w = 1080,
     h = 500,
+    legend,
     svg,
     scaleRadius,
     simulation,
@@ -56,11 +58,13 @@
   }
 
   function createHeadding() {
-    document.querySelector("#chart").innerHTML = "<h3 class='innerHeader'>Anzahl der Verstöße über alle Saisons (2006/07 - 20016/17)</h3>";
+    chart.innerHTML = "<h3 class='innerHeader'>Anzahl der Verstöße über alle Saisons (2006/07 - 20016/17)</h3>";
   }
 
   function createLegend() {
     // Legend for f,r,g colors
+    legend = "<div class='legend'> <div><div id='foul'></div> Fouls</div> <div><div id='red'></div> rote Karten</div> <div><div id='yellow'></div> gelbe Karten</div></div>";
+    chart.innerHTML += legend;
   }
 
   // not in the least responsive, beacause: 
@@ -86,7 +90,7 @@
   function createSimulation() {
     simulation = d3.forceSimulation()
       .force("x", d3.forceX(w*0.6).strength(0.013))
-      .force("y", d3.forceY(w*0.24).strength(0.06))
+      .force("y", d3.forceY(w*0.22).strength(0.06))
       .force("collide", d3.forceCollide(function(d) { return scaleRadius(d.value*1.1); }));
   }
 
