@@ -2,14 +2,17 @@
   "use strict";
 
   var nodes,
-    w = 750,
+    w = 1080,
     h = 500,
     svg,
     scaleRadius,
     simulation,
     bubbles,
-    // flatuicolors.com -> defo (wet asphalt, alizarin, sunflower)
-    colors = d3.scaleOrdinal(["#34495e", "#f1c40f", "#e74c3c"]),  
+    // colors from https://flatuicolors.com/palette/defo (wet asphalt, alizarin, sunflower)
+    wetAsphaltBlack = "#34495e",
+    alizarinRed = "#e74c3c",
+    sunflowerYellow = "#f1c40f", 
+    colors = d3.scaleOrdinal([wetAsphaltBlack, sunflowerYellow, alizarinRed]),  
     fileTotal = ["data/simple_FGR_total.json"];
 
   function showInfoOnMouseover(d) {
@@ -56,7 +59,12 @@
     document.querySelector("#chart").innerHTML = "<h3 class='innerHeader'>Anzahl der Verstöße über alle Saisons (2006/07 - 20016/17)</h3>";
   }
 
-  // not in the least responsive
+  function createLegend() {
+    // Legend for f,r,g colors
+  }
+
+  // not in the least responsive, beacause: 
+  // if the chart is to be responsive, than all forceSimulation values have to responsively adjust correctly to that (which is hard to achieve) 
   function createSvg() {
     svg = d3.select("#chart")
       .append("svg")
@@ -77,8 +85,8 @@
 
   function createSimulation() {
     simulation = d3.forceSimulation()
-      .force("x", d3.forceX(w*0.9).strength(0.013))
-      .force("y", d3.forceY(w/3).strength(0.06))
+      .force("x", d3.forceX(w*0.6).strength(0.013))
+      .force("y", d3.forceY(w*0.24).strength(0.06))
       .force("collide", d3.forceCollide(function(d) { return scaleRadius(d.value*1.1); }));
   }
 
@@ -107,6 +115,7 @@
   function makeChart() {
     // all chartparts are beeing defined
     createHeadding();
+    createLegend();
     createSvg();
     getScale();
     createSimulation();
@@ -139,3 +148,6 @@
   
   getData();
 })();
+
+
+// toDo: - legende!
