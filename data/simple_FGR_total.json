@@ -1,0 +1,521 @@
+[
+  {
+    "team": "Bayern München",
+    "kind": "foul",
+    "value": 5070
+  },
+  {
+    "team": "Bayern München",
+    "kind": "red",
+    "value": 18
+  },
+  {
+    "team": "Bayern München",
+    "kind": "yellow",
+    "value": 504
+  },
+  {
+    "team": "Borussia Dormund",
+    "kind": "foul",
+    "value": 5510
+  },
+  {
+    "team": "Borussia Dormund",
+    "kind": "red",
+    "value": 24
+  },
+  {
+    "team": "Borussia Dormund",
+    "kind": "yellow",
+    "value": 526
+  },
+  {
+    "team": "HSV",
+    "kind": "foul",
+    "value": 6594
+  },
+  {
+    "team": "HSV",
+    "kind": "red",
+    "value": 40
+  },
+  {
+    "team": "HSV",
+    "kind": "yellow",
+    "yellow": 714
+  },
+  {
+    "team": "Arminia Bielefeld",
+    "kind": "foul",
+    "value": 1536,
+    "red": 7,
+    "yellow": 173
+  },
+  {
+    "team": "Arminia Bielefeld",
+    "kind": "red",
+    "value":  7
+  },
+  {
+    "team": "Arminia Bielefeld",
+    "kind": "yellow",
+    "value": 173
+  },
+  {
+    "team": "Bayer Leverkusen",
+    "kind": "foul",
+    "value": 6074
+    
+  },
+  {
+    "team": "Bayer Leverkusen",
+    "kind": "red",
+    "value": 39
+  },
+  {
+    "team": "Bayer Leverkusen",
+    "kind": "yellow",
+    "value": 680
+  },
+  {
+    "team": "Alemania Aachen",
+    "kind": "foul",
+    "value": 639
+  },
+  {
+    "team": "Alemania Aachen",
+    "kind": "red",
+    "value": 5
+  },
+  {
+    "team": "Alemania Aachen",
+    "kind": "yellow",
+    "value": 73
+  },
+  {
+    "team": "Mainz 05",
+    "kind": "foul",
+    "value": 4937
+  },
+  {
+    "team": "Mainz 05",
+    "kind": "red",
+    "value": 27
+  },
+  {
+    "team": "Mainz 05",
+    "kind": "yellow",
+    "value": 513
+  },
+  {
+    "team": "VfL Bochum",
+    "kind": "foul",
+    "value": 2533
+  },
+  {
+    "team": "VfL Bochum",
+    "kind": "red",
+    "value": 15
+  },
+  {
+    "team": "VfL Bochum",
+    "kind": "yellow",
+    "value": 269
+  },
+  {
+    "team": "Mönchengladbach",
+    "kind": "foul",
+    "value": 4969
+  },
+  {
+    "team": "Mönchengladbach",
+    "kind": "red",
+    "value": 24
+  },
+  {
+    "team": "Mönchengladbach",
+    "kind": "yellow",
+    "value": 532
+  },
+  {
+    "team": "Energie Cottbus",
+    "kind": "foul",
+    "value": 2055
+  },
+  {
+    "team": "Energie Cottbus",
+    "kind": "red",
+    "value": 7
+  },
+  {
+    "team": "Energie Cottbus",
+    "kind": "yellow",
+    "value": 223
+  },
+  {
+    "team": "Schalke 04",
+    "kind": "foul",
+    "value": 6248  
+  },
+  {
+    "team": "Schalke 04",
+    "kind": "red",
+    "value": 32
+  },
+  {
+    "team": "Schalke 04",
+    "kind": "yellow",
+    "value": 662
+  },
+  {
+    "team": "Eintracht Frankfurt",
+    "kind": "foul",
+    "value": 5654
+  },
+  {
+    "team": "Eintracht Frankfurt",
+    "kind": "red",
+    "value": 34
+  },
+  {
+    "team": "Eintracht Frankfurt",
+    "kind": "yellow",
+    "value": 709
+  },
+  {
+    "team": "VfB Stuttgart",
+    "kind": "foul",
+    "value": 5522
+  },
+  {
+    "team": "VfB Stuttgart",
+    "kind": "red",
+    "value": 44
+  },
+  {
+    "team": "VfB Stuttgart",
+    "kind": "yellow",
+    "value": 634
+  },
+  {
+    "team": "VfL Nürnberg",
+    "kind": "foul",
+    "value": 3992
+  },
+  {
+    "team": "VfL Nürnberg",
+    "kind": "red",
+    "value": 18
+  },
+  {
+    "team": "VfL Nürnberg",
+    "kind": "yellow",
+    "value": 455
+  },
+  {
+    "team": "Hannover 96",
+    "kind": "foul",
+    "value": 5864
+  },
+  {
+    "team": "Hannover 96",
+    "kind": "red",
+    "value": 39
+  },
+  {
+    "team": "Hannover 96",
+    "kind": "yellow",
+    "value": 644
+  },
+  {
+    "team": "Werder Bremen",
+    "kind": "foul",
+    "value": 6145
+  },
+  {
+    "team": "Werder Bremen",
+    "kind": "red",
+    "value": 37
+  },
+  {
+    "team": "Werder Bremen",
+    "kind": "yellow",
+    "value": 711
+  },
+  {
+    "team": "VfL Wolfsburg",
+    "kind": "foul",
+    "value": 6428
+  },
+  {
+    "team": "VfL Wolfsburg",
+    "kind": "red",
+    "value": 32
+  },
+  {
+    "team": "VfL Wolfsburg",
+    "kind": "yellow",
+    "value": 653
+  },
+  {
+    "team": "Hertha BSC",
+    "kind": "foul",
+    "value": 4838
+  },
+  {
+    "team": "Hertha BSC",
+    "kind": "red",
+    "value": 29
+  },
+  {
+    "team": "Hertha BSC",
+    "kind": "yellow",
+    "value": 565
+  },
+  {
+    "team": "Hansa Rostock",
+    "kind": "foul",
+    "value": 571
+  },
+  {
+    "team": "Hansa Rostock",
+    "kind": "red",
+    "value": 0
+  },
+  {
+    "team": "Hansa Rostock",
+    "kind": "yellow",
+    "value": 62
+  },
+  {
+    "team": "MSV Duisburg",
+    "kind": "foul",
+    "value": 723
+  },
+  {
+    "team": "MSV Duisburg",
+    "kind": "red",
+    "value":5
+  },
+  {
+    "team": "MSV Duisburg",
+    "kind": "yellow",
+    "value": 86
+  },
+  {
+    "team": "Karlsruher SC",
+    "kind": "foul",
+    "value": 1175,
+    "red": 3,
+    "yellow": 120
+  },
+  {
+    "team": "Karlsruher SC",
+    "kind": "red",
+    "value": 3
+  },
+  {
+    "team": "Karlsruher SC",
+    "kind": "yellow",
+    "value": 120
+  },
+  {
+    "team": "TSG Hoffenheim",
+    "kind": "foul",
+    "value": 5435,
+    "red": 29,
+    "yellow": 588
+  }, 
+  {
+    "team": "TSG Hoffenheim",
+    "kind": "red",
+    "value": 29
+  },
+  {
+    "team": "TSG Hoffenheim",
+    "kind": "yellow",
+    "value": 588
+  },
+  {
+    "team": "FC Köln",
+    "kind": "foul",
+    "value": 3611
+  },
+  {
+    "team": "FC Köln",
+    "kind": "red",
+    "value": 20
+  },
+  {
+    "team": "FC Köln",
+    "kind": "yellow",
+    "value": 461
+  },
+  {
+    "team": "SC Freiburg",
+    "kind": "foul",
+    "value": 3708
+  },
+  {
+    "team": "SC Freiburg",
+    "kind": "red",
+    "value": 17
+  },
+  {
+    "team": "SC Freiburg",
+    "kind": "yellow",
+    "value": 392
+  },
+  {
+    "team": "Kaiserslautern",
+    "kind": "foul",
+    "value": 1229
+  },
+  {
+    "team": "Kaiserslautern",
+    "kind": "red",
+    "value": 8
+  },
+  {
+    "team": "Kaiserslautern",
+    "kind": "yellow",
+    "value": 128
+  },
+  {
+    "team": "St Pauli",
+    "kind": "foul",
+    "value": 566
+  },
+  {
+    "team": "St Pauli",
+    "kind": "red",
+    "value": 5
+  },
+  {
+    "team": "St Pauli",
+    "kind": "yellow",
+    "value": 56
+  },
+  {
+    "team": "FC Augsburg",
+    "kind": "foul",
+    "value": 3240
+  },
+  {
+    "team": "FC Augsburg",
+    "kind": "red",
+    "value": 13
+  },
+  {
+    "team": "FC Augsburg",
+    "kind": "yellow",
+    "value": 407
+  },
+  {
+    "team": "Fortuna Düsseldorf",
+    "kind": "foul",
+    "value": 516
+  },
+  {
+    "team": "Fortuna Düsseldorf",
+    "kind": "red",
+    "value": 3
+  },
+  {
+    "team": "Fortuna Düsseldorf",
+    "kind": "yellow",
+    "value": 76
+  },
+  {
+    "team": "Greuther Fürth",
+    "kind": "foul",
+    "value": 651
+  },
+  {
+    "team": "Greuther Fürth",
+    "kind": "red",
+    "value": 6
+  },
+  {
+    "team": "Greuther Fürth",
+    "kind": "yellow",
+    "value": 76
+  },
+  {
+    "team": "Eintracht Braunschweig",
+    "kind": "foul",
+    "value": 553
+  },
+  {
+    "team": "Eintracht Braunschweig",
+    "kind": "red",
+    "value": 3
+  },
+  {
+    "team": "Eintracht Braunschweig",
+    "kind": "yellow",
+    "value": 62
+  },
+  {
+    "team": "SC Paderborn",
+    "kind": "foul",
+    "value": 484
+  },
+  {
+    "team": "SC Paderborn",
+    "kind": "red",
+    "value": 3
+  },
+  {
+    "team": "SC Paderborn",
+    "kind": "yellow",
+    "value": 51
+  },
+  {
+    "team": "SV Darmstadt",
+    "kind": "foul",
+    "value": 1073
+  },  
+  {
+    "team": "SV Darmstadt",
+    "kind": "red",
+    "value": 6
+  },
+  {
+    "team": "SV Darmstadt",
+    "kind": "yellow",
+    "value": 153
+  },
+  {
+    "team": "FC Ingolstadt",
+    "kind": "foul",
+    "value": 1080,
+    "red": 8,
+    "yellow": 148
+  },
+  {
+    "team": "FC Ingolstadt",
+    "kind": "red",
+    "value": 8
+  },
+  {
+    "team": "FC Ingolstadt",
+    "kind": "yellow",
+    "value": 148
+  },
+  {
+    "team": "RB Leipzig",
+    "kind": "foul",
+    "value": 523
+  },
+  {
+    "team": "RB Leipzig",
+    "kind": "red",
+    "value": 2
+  },
+  {
+    "team": "RB Leipzig",
+    "kind": "yellow",
+    "value": 66
+  }
+]
