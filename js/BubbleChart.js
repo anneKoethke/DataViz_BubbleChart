@@ -13,8 +13,7 @@
     fileTotal = ["data/simple_FGR_total.json"];
 
   function showInfoOnMouseover(d) {
-    let kind = switchKind(d),
-      str = d.team + ": " + d.value + " " + kind;
+    let kind = switchKind(d);
     highlightBubbles(d);
   }
 
@@ -64,11 +63,11 @@
 
   function getScale() {
     scaleRadius = d3.scaleSqrt()
-      .domain([
-        d3.min(nodes, function(d) { return d.value }),
-        d3.max(nodes, function(d) { return d.value })
-      ])
-      .range([5,50]);
+      .domain([ // get maximum and minimum value of the data as range
+        d3.min(nodes, function(d) { return d.value; }),
+        d3.max(nodes, function(d) { return d.value; })
+      ]) // as the values tend between 0 and > 6.500, the range has to be small enough to display all circles in the chart container and yet great enough to make the circle sizes destinct (6.500 fouls beeing much more than e.g. 3 red cards) and the small circles seectable 
+      .range([5,50]); 
   }
 
   function createSimulation() {
@@ -84,7 +83,7 @@
       .enter().append("circle")
       .attr("class", "bubbles")
       .attr("id", function(d) {
-        // regex nötig, um in showInfoOnMouseover die css-klasse auswählen zu können (dort ebenfalls geregext)
+        // need regex to use as CSS-clas in showInfoOnMouseover (there also selected via regex)
         let teamStr = (d.team).replace(/\s/g,"");
         return teamStr; 
       })
@@ -92,7 +91,7 @@
         return scaleRadius(d.value);
       })
       .attr("fill", function(d) {
-        return colors(d.kind)
+        return colors(d.kind);
       })
       .style("stroke", "black")
       .style("stroke-width", 2)
@@ -101,31 +100,35 @@
   }
 
   function makeChart() {
+    // all chartparts are beeing defined
     createSvg();
     getScale();
     createSimulation();
     createBubbles();
 
+    // start the simulation cycle
     simulation.nodes(nodes)
       .on("tick", ticked);
   }
 
+  // redraws the chart on evy tick
   function ticked() {
       bubbles
         .attr("cx", function(d) { return d.x; })
         .attr("cy", function(d) { return d.y; });
     }
   
+  // pass data to Chart creation
   function dataReady(data) {
     nodes = data.sort(function (a, b) { return b.value - a.value; });
-    console.log(nodes);
-   makeChart();
+    makeChart();
   }
 
+  // load data from file
   function getData() {
     Promise.all(fileTotal.map(url => d3.json(url))).then(function(data) {
       dataReady(data[0]);
-    })
+    });
   }
   
   getData();
