@@ -7,6 +7,7 @@
     h = 500,
     legend,
     svg,
+    infoRect,
     scaleRadius,
     simulation,
     bubbles,
@@ -18,8 +19,8 @@
     fileTotal = ["data/simple_FGR_total.json"];
 
   function showInfoOnMouseover(d) {
-    let kind = switchKind(d);
     highlightBubbles(d);
+    addToolTip(d);
   }
 
   function highlightBubbles(d) {
@@ -27,12 +28,13 @@
     let teamStr = (d.team).replace(/\s/g,"");
     console.log(d.team + ": " + d.kind + " - "+ d.value);
     d3.selectAll("#"+teamStr).style("opacity", 1);
-    addToolTip(d);
   }
 
   function addToolTip(d) {
-    // 
+    let kind = switchKind(d); // um string für Ausgabe zu bilden
+    
   }
+
 
   function switchKind(d) {
     let kind = "";
@@ -78,6 +80,20 @@
       .attr("transform", "translate (0,0)");
   }
 
+  function createInfoRect (d) {
+    infoRect = svg.append("rect")
+      .attr("class", "infoRect")
+      .attr("x", 750)
+      .attr("y", 20)
+      .attr("width", 300)
+      .attr("height", 400)
+      .attr("rx", 0)
+      .attr("ry", 0)
+      .style("stroke", "black")
+      .style("stroke-width", "1px")
+      .style("fill", "#fff");
+  }
+
   function getScale() {
     scaleRadius = d3.scaleSqrt()
       .domain([ // get maximum and minimum value of the data as range
@@ -121,6 +137,7 @@
     createHeadding();
     createLegend();
     createSvg();
+    createInfoRect();
     getScale();
     createSimulation();
     createBubbles();
