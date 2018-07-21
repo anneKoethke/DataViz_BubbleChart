@@ -52,6 +52,11 @@
     bubbles.style("opacity", 1);
   }
 
+  function createHeadding() {
+    document.querySelector("#chart").innerHTML = "<h3 class='innerHeader'>Anzahl der Verstöße über alle Saisons (2006/07 - 20016/17)</h3>";
+  }
+
+  // not in the least responsive
   function createSvg() {
     svg = d3.select("#chart")
       .append("svg")
@@ -101,6 +106,7 @@
 
   function makeChart() {
     // all chartparts are beeing defined
+    createHeadding();
     createSvg();
     getScale();
     createSimulation();
