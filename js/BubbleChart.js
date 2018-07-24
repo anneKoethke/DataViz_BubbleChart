@@ -8,6 +8,8 @@
     legend,
     svg,
     infoRect,
+    //infoText,
+    toolText,
     scaleRadius,
     simulation,
     bubbles,
@@ -20,21 +22,14 @@
 
   function showInfoOnMouseover(d) {
     highlightBubbles(d);
-    addToolTip(d);
+    let kind = switchKind(d); // um string für Ausgabe zu bilden
   }
 
   function highlightBubbles(d) {
     bubbles.style("opacity", .2);
     let teamStr = (d.team).replace(/\s/g,"");
-    console.log(d.team + ": " + d.kind + " - "+ d.value);
     d3.selectAll("#"+teamStr).style("opacity", 1);
   }
-
-  function addToolTip(d) {
-    let kind = switchKind(d); // um string für Ausgabe zu bilden
-    
-  }
-
 
   function switchKind(d) {
     let kind = "";
@@ -92,6 +87,18 @@
       .style("stroke", "black")
       .style("stroke-width", "1px")
       .style("fill", "#fff");
+    appendInitialInfoText();
+  }
+
+  function appendInitialInfoText() {
+    let str = "bla";
+    infoText = infoRect.append("text")
+      .attr("class", "infoText")
+      .attr("dx", 80)
+      .attr("dy", 40)
+      .attr("text-anchor", "middle")
+      .style("fill", "black")
+      .text(str);
   }
 
   function getScale() {
@@ -132,6 +139,16 @@
       .on("mouseout", hideInfoOnMouseout);
   }
 
+  function createToolText() {
+    toolText = bubbles.append("text")
+      .attr("id", "toolText")
+      .attr("text-anchor", "middle")
+      .style("fill", "red")
+      .text(function(d) {
+        return d.team;
+      });
+  }
+
   function makeChart() {
     // all chartparts are beeing defined
     createHeadding();
@@ -141,6 +158,7 @@
     getScale();
     createSimulation();
     createBubbles();
+    createToolText();
 
     // start the simulation cycle
     simulation.nodes(nodes)
@@ -152,6 +170,9 @@
       bubbles
         .attr("cx", function(d) { return d.x; })
         .attr("cy", function(d) { return d.y; });
+      toolText
+        .attr("x", function(d) { return d.x; })
+        .attr("y", function(d) { return d.y; });
     }
   
   // pass data to Chart creation
@@ -169,6 +190,5 @@
   
   getData();
 })();
-
 
 // toDo: - legende!
