@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bundesliga in bunt</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+    <script src="js/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="css/FGR_global_style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/FGR_02_style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header>
+      <a href="index.htm"><img id="logo" src="img/logo.png" alt="Fußball-Logo"></a>
+      <div class="">
+        <h1>Bundesliga in bunt</h1>
+        <p>Datenvisualisierung mit d3</p>
+      </div>
+    </header>
+    <nav>
+      <a href="FGR_01.htm" class="nav-selected"><div>Fouls und Karten</div></a>
+      <a href="treemap.htm"><div>Heim- und Auswärtsstärke</div></a>
+      <a href="sunburst.htm"><div>Halbzeit- vs. Endergebnis</div></a>
+      <a href="barchart.htm"><div>Schüsse vs. Torschüsse</div></a>
+      <a href="path.htm"><div>Spielerwanderung</div></a>
+    </nav>
+    <main>
+      <h2>Fairplay in der Bundesliga</h2>
+      <h3>Fouls, rote und gelbe Karten</h3>
+      <div id="btnContainer">
+        <button class="viewChangeBtn" id="btnAll" onclick="window.location = 'FGR_01.htm'">Vereine über alle Saisons</button>
+        <button class="viewChangeBtn" id="btnTimeline"  onclick="window.location = 'FGR_02.htm'">Vereine im Verlauf einer Saison</button>
+        <button class="viewChangeBtn" id="btnSeason" onclick="window.location = 'FGR_03.htm'">Liste der Vereine einer Saison</button>
+      </div>
+      <ul class="selection">
+          <li id="li_06_07">Saison 2006/07</li>
+          <li id="li_07_08">Saison 2007/08</li>
+          <li id="li_08_09">Saison 2008/09</li>
+          <li id="li_09_10">Saison 2009/10</li>
+          <li id="li_10_11">Saison 2010/11</li>
+          <li id="li_11_12">Saison 2011/12</li>
+          <li id="li_12_13">Saison 2012/13</li>
+          <li id="li_13_14">Saison 2013/14</li>
+          <li id="li_14_15">Saison 2014/15</li>
+          <li id="li_15_16">Saison 2015/16</li>
+          <li id="li_16_17">Saison 2016/17</li>
+        </ul>
+        <ul class="dropdown">
+          <li id="f_select">Fouls</li>
+          <li id="r_select">rote Karten</li>
+          <li id="y_select">gelbe Karten</li>
+        </ul>
+        <div class="chart" id="chart"></div>
+        <div id="infoText">
+          <h3 id="infoHeader">Erklärung:</h3>
+          <p id="shortInfo">Wählen Sie über die Saison-Buttons, die Saison aus, die Sie interessiert. Entscheiden Sie dann mit den darunterliegenden Buttons, ob die Teams nach Anzahl der Fouls, der roten oder der gelben Karten sortiert werden sollen. Das Team, das sich links oben befindet, hat die höchste Anzahl in der gewählten Kategorie - wenn sie keine Sortierkategorie wählen, werden die Teams nach der Anzahl ihrer Fouls sortiert.</p>
+          <p id="infoContent">Die Kombination aus schwarzem, rotem und gelben Kreis gibt einen Verein in der entsprechenden Saison wieder. Sein Name wird über den drei Kreisen dargestellt. Wenn Sie Ihre Maus über die Team-Kreise ziehen, erscheinen weitere Informationen in einem zusätzlichen Feld rechts unten.</p>
+        </div>
+        <script src="js/FGR_02_script.js"></script>
+    </main>
+    <footer>
+      <p>Design by: David Krammer, Anne Köthke, Daniela Krapf</p>
+    </footer>
+  </body>
+</html>

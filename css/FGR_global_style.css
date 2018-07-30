@@ -65,6 +65,16 @@ main h2 {
 main h3 {
   margin-top: 0;
 }
+
+main li {
+  background: rgba(2550,250,250,0.8);
+}
+
+main p {
+  background: rgba(2550,250,250,0.8);
+  padding: 5px;
+}
+
 #btnContainer {
   display: grid;
   grid-template-columns:  1fr 1fr 1fr;
@@ -75,7 +85,7 @@ main h3 {
   font-size: .9em;
 }
 .chart {
-  height: 500px;
+  height: 600px;
   margin: 20px auto;
   background-color: rgba(250,250,250,0.8);
   padding: 20px;
@@ -87,36 +97,4 @@ footer {
   text-align: center;
   margin-top: 10px;
   padding: 15px;
-}
-
-.legend {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 3fr;
-  grid-gap: 5px;
-  margin-left: 100px; 
-}
-
-#foul {
-  background-color: #34495e;
-  width: 10px;
-  height: 10px;
-  border: 1px solid black;
-}
-
-#red {
-  background-color: #e74c3c;
-  width: 10px;
-  height: 10px;
-  border: 1px solid black;
-}
-
-#yellow {
-  background-color: #f1c40f;
-  width: 10px;
-  height: 10px;
-  border: 1px solid black;
-}
-
-.bubbles:hover {
-  cursor: pointer;
 }

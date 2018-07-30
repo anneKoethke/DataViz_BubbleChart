@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bundesliga in bunt</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+    <script src="js/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="css/FGR_global_style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/FGR_03_style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header>
+      <a href="index.htm"><img id="logo" src="img/logo.png" alt="Fußball-Logo"></a>
+      <div class="">
+        <h1>Bundesliga in bunt</h1>
+        <p>Datenvisualisierung mit d3</p>
+      </div>
+    </header>
+    <nav>
+      <a href="FGR_01.htm" class="nav-selected"><div>Fouls und Karten</div></a>
+      <a href="treemap.htm"><div>Heim- und Auswärtsstärke</div></a>
+      <a href="sunburst.htm"><div>Halbzeit- vs. Endergebnis</div></a>
+      <a href="barchart.htm"><div>Schüsse vs. Torschüsse</div></a>
+      <a href="path.htm"><div>Spielerwanderung</div></a>
+    </nav>
+    <main>
+      <h2>Fairplay in der Bundesliga</h2>
+      <h3>Fouls, rote und gelbe Karten</h3>
+      <div id="btnContainer">
+          <button class="viewChangeBtn" id="btnAll" onclick="window.location = 'FGR_01.htm'">Vereine über alle Saisons</button>
+          <button class="viewChangeBtn" id="btnTimeline"  onclick="window.location = 'FGR_02.htm'">Vereine im Verlauf einer Saison</button>
+          <button class="viewChangeBtn" id="btnSeason" onclick="window.location = 'FGR_03.htm'">Liste der Vereine einer Saison</button>
+      </div>
+      <ul class="selection">
+          <li id="Bayern München">Bayern München</li>
+          <li id="RB Leipzig">RB Leipzig</li>
+          <li id="Borussia Dortmund">Borussia Dortmund</li>
+          <li id="TSG Hoffenheim">TSG Hoffenheim</li>
+          <li id="FC Köln">FC Köln</li>
+          <li id="Hertha BSC">Hertha BSC</li>
+          <li id="Freiburg">SC Freiburg</li>
+          <li id="Werder Bremen">Werder Bremen</li>
+          <li id="Mönchengladbach">Mönchengladbach</li>
+          <li id="Schalke 04">Schalke 04</li>
+          <li id="Eintracht Frankfurt">Eintracht Frankfurt</li>
+          <li id="Bayer Leverkusen">Bayer Leverkusen</li>
+          <li id="Augsburg">FC Augsburg</li>
+          <li id="HSV">HSV</li>
+          <li id="Mainz 05">Mainz 05</li>
+          <li id="VfL Wolfsburg">VfL Wolfsburg</li>
+          <li id="Ingolstadt">FC Ingolstadt</li>
+          <li id="Darmstadt">SV Darmstadt</li>
+        </ul>
+        <div class="chart" id="chart"></div>
+        <div id="infoText">
+          <h3 id="infoHeader">Erklärung:</h3>
+          <p id="shortInfo">In dieser Visualisierung werden für die Saison 2016/17 für jeden Verein die Anzahl Fouls, roten und gelben Karten pro Spieltag dargestellt. Wählen Sie über das Menü einfach den Verein aus, der Sie interessiert.</p>
+        </div>
+        <script src="js/FGR_03_script.js"></script>
+    </main>
+    <footer>
+      <p>Design by: David Krammer, Anne Köthke, Daniela Krapf</p>
+    </footer>
+  </body>
+</html>

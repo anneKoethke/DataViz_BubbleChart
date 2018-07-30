@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bundesliga in bunt</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+    <script src="js/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="css/FGR_global_style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/FGR_01_style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header>
+      <a href="index.htm"><img id="logo" src="img/logo.png" alt="Fußball-Logo"></a>
+      <div class="">
+        <h1>Bundesliga in bunt</h1>
+        <p>Datenvisualisierung mit d3</p>
+      </div>
+    </header>
+    <nav>
+      <a href="FGR_01.htm" class="nav-selected"><div>Fouls und Karten</div></a>
+      <a href="treemap.htm"><div>Heim- und Auswärtsstärke</div></a>
+      <a href="sunburst.htm"><div>Halbzeit- vs. Endergebnis</div></a>
+      <a href="barchart.htm"><div>Schüsse vs. Torschüsse</div></a>
+      <a href="path.htm"><div>Spielerwanderung</div></a>
+    </nav>
+    <main>
+      <h2>Fairplay in der Bundesliga</h2>
+      <h3>Fouls, rote und gelbe Karten</h3>
+      <div id="btnContainer">
+          <button class="viewChangeBtn" id="btnAll" onclick="window.location = 'FGR_01.htm'">Vereine über alle Saisons</button>
+          <button class="viewChangeBtn" id="btnTimeline"  onclick="window.location = 'FGR_02.htm'">Vereine im Verlauf einer Saison</button>
+          <button class="viewChangeBtn" id="btnSeason" onclick="window.location = 'FGR_03.htm'">Liste der Vereine einer Saison</button>
+      </div>
+      <div class="chart" id="chart"></div>
+      <div id="infoText">
+          <h3 id="infoHeader">Erklärung:</h3>
+          <p id="shortInfo">Die Kreise, die hier einfliegen, zeigen das Größenverhältnis der Fouls (schwarz), der roten Karten (rot) und gelben Karten (gelb) für alle Vereine über den gesamten Zeitraum der Saison 2006/07 bis 2016/17. Insgsamt haben in dieser Zeit 34 Vereine in der Bundesliga gespielt. Spitzenreiter bei den Fouls war der Hamburger Sportverein (HSV) mit 6594 Fouls, bei den roten Karten der Verein VfB Stuttgart mit 44 roten Karten und bei den gelben Karten erneut der HSV mit 714 gelben Karten - dicht gefolgt von Werder Bremen mit 711 gelben Karten.</p>
+          <p id="infoContent">Allerdings gilt zu beachten, dass nicht jeder der 34 Vereine über den gesamten Zeitraum in der Bundeslig gespielt hat. Um zu erfahren, welcher Verein welche Saisons in der ersten Liga war und wie sein Fairnessverhältnis ist, einfach über den Button "..." die nächste Visualisierung auswählen. In dieser Visualsierung werden für jeden Verein die Anzahl an Fouls, gelben und roten Karten angezeigt, wenn man mit der Maus über einen Kreis fährt.</p>
+      </div>
+      <script src="js/FGR_01_script.js"></script>
+    </main>
+    <footer>
+      <p>Design by: David Krammer, Anne Köthke, Daniela Krapf</p>
+    </footer>
+  </body>
+</html>

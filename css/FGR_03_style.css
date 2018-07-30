@@ -1,0 +1,22 @@
+svg {
+  filter: drop-shadow(0px 3px 3px rgba(0,0,0,.25));
+}
+
+.selection {
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.selection li {
+  list-style: none;
+  margin: 5px 10px 5px 0px;
+  padding: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  transition-duration: .5s;
+}
+
+.selection li:hover {
+  background-color: #d3d3d3;
+}
