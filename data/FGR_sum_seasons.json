@@ -1,0 +1,1234 @@
+[
+{
+  "saison_06_07": [
+    {
+      "team": "Bayern München",
+      "fouls": 540,
+      "red": 0,
+      "yellow": 58
+    },
+    {
+      "team": "Borussia Dortmund",
+      "fouls": 664,
+      "red": 2,
+      "yellow": 64
+    },
+    {
+      "team": "HSV",
+      "fouls": 710,
+      "red": 7,
+      "yellow": 64
+    },
+    {
+      "team": "Arminia Bielefeld",
+      "fouls": 498,
+      "red": 2,
+      "yellow": 52
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "fouls": 679,
+      "red": 8,
+      "yellow": 73
+    },
+    {
+      "team": "Alemania Aachen",
+      "fouls": 639,
+      "red": 5,
+      "yellow": 73
+    },
+    {
+      "team": "Mainz 05",
+      "fouls": 674,
+      "red": 2,
+      "yellow": 57
+    },
+    {
+      "team": "VfL Bochum",
+      "fouls": 618,
+      "red": 3,
+      "yellow": 59
+    },
+    {
+      "team": "Mönchengladbach",
+      "fouls": 631,
+      "red": 3,
+      "yellow": 61
+    },
+    {
+      "team": "Energie Cottbus",
+      "fouls": 689,
+      "red": 3,
+      "yellow": 83
+    },
+    {
+      "team": "Schalke 04",
+      "fouls": 634,
+      "red": 1,
+      "yellow": 66
+    },
+    {
+      "team": "Eintracht Frankfurt",
+      "fouls": 610,
+      "red": 7,
+      "yellow": 44
+    },
+    {
+      "team": "VfB Stuttgart",
+      "fouls": 652,
+      "red": 6,
+      "yellow": 51
+    },
+    {
+      "team": "VfL Nürnberg",
+      "fouls": 629,
+      "red": 2,
+      "yellow": 68
+    },
+    {
+      "team": "Hannover 96",
+      "fouls": 641,
+      "red": 3,
+      "yellow": 52
+    },
+    {
+      "team": "Werder Bremen",
+      "fouls": 610,
+      "red": 0,
+      "yellow": 65
+    },
+    {
+      "team": "VfL Wolfsburg",
+      "fouls": 710,
+      "red": 1,
+      "yellow": 64
+    },
+    {
+      "team": "Hertha BSC",
+      "fouls": 602,
+      "red": 7,
+      "yellow": 70
+    }
+  ]
+},
+{
+  "saison_07_08": [
+    {
+      "team": "VfB Stuttgart",
+      "fouls": 542,
+      "red": 6,
+      "yellow": 62
+    },
+    {
+      "team": "Schalke 04",
+      "fouls": 599,
+      "red": 2,
+      "yellow": 56
+    },
+    {
+      "team": "Bayern München",
+      "fouls": 544,
+      "red": 3,
+      "yellow": 46
+    },
+    {
+      "team": "Hansa Rostock",
+      "fouls": 571,
+      "red": 0,
+      "yellow": 62
+    },
+    {
+      "team": "VfL Bochum",
+      "fouls": 674,
+      "red": 1,
+      "yellow": 66
+    },
+    {
+      "team": "Werder Bremen",
+      "fouls": 613,
+      "red": 7,
+      "yellow": 69
+    },
+    {
+      "team": "Eintracht Frankfurt",
+      "fouls": 599,
+      "red": 0,
+      "yellow": 57
+    },
+    {
+      "team": "Hertha BSC",
+      "fouls": 583,
+      "red": 0,
+      "yellow": 55
+    },
+    {
+      "team": "Hannover 96",
+      "fouls": 640,
+      "red": 5,
+      "yellow": 69
+    },
+    {
+      "team": "HSV",
+      "fouls": 646,
+      "red": 4,
+      "yellow": 52
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "fouls": 596,
+      "red": 2,
+      "yellow": 62
+    },
+    {
+      "team": "Energie Cottbus",
+      "fouls": 658,
+      "red": 1,
+      "yellow": 70
+    },
+    {
+      "team": "VfL Wolfsburg",
+      "fouls": 697,
+      "red": 3,
+      "yellow": 60
+    },
+    {
+      "team": "Arminia Bielefeld",
+      "fouls": 496,
+      "red": 1,
+      "yellow": 56
+    },
+    {
+      "team": "Borussia Dortmund",
+      "fouls": 628,
+      "red": 6,
+      "yellow": 58
+    },
+    {
+      "team": "MSV Duisburg",
+      "fouls": 723,
+      "red": 5,
+      "yellow": 86
+    },
+    {
+      "team": "VfL Nürnberg",
+      "fouls": 589,
+      "red": 3,
+      "yellow": 60
+    },
+    {
+      "team": "Karlsruher SC",
+      "fouls": 550,
+      "red": 1,
+      "yellow": 56
+    }
+  ]
+},
+{
+  "saison_08_09": [
+    {
+      "team": "Bayern München",
+      "fouls": 569,
+      "red": 3,
+      "yellow": 63
+    },
+    {
+      "team": "HSV",
+      "fouls": 630,
+      "red": 3,
+      "yellow": 75
+    },
+    {
+      "team": "Arminia Bielefeld",
+      "fouls": 542,
+      "red": 4,
+      "yellow": 65
+    },
+    {
+      "team": "Werder Bremen",
+      "fouls": 570,
+      "red": 4,
+      "yellow": 55
+    },
+    {
+      "team": "Energie Cottbus",
+      "fouls": 708,
+      "red": 3,
+      "yellow": 70
+    },
+    {
+      "team": "TSG Hoffenheim",
+      "fouls": 692,
+      "red": 6,
+      "yellow": 71
+    },
+    {
+      "team": "Karlsruher SC",
+      "fouls": 625,
+      "red": 2,
+      "yellow": 64
+    },
+    {
+      "team": "VfL Bochum",
+      "fouls": 663,
+      "red": 7,
+      "yellow": 75
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "fouls": 596,
+      "red": 5,
+      "yellow": 57
+    },
+    {
+      "team": "Borussia Dortmund",
+      "fouls": 546,
+      "red": 5,
+      "yellow": 48
+    },
+    {
+      "team": "Schalke 04",
+      "fouls": 578,
+      "red": 6,
+      "yellow": 60
+    },
+    {
+      "team": "Hannover 96",
+      "fouls": 607,
+      "red": 4,
+      "yellow": 58
+    },
+    {
+      "team": "VfL Wolfsburg",
+      "fouls": 655,
+      "red": 2,
+      "yellow": 56
+    },
+    {
+      "team": "FC Köln",
+      "fouls": 547,
+      "red": 4,
+      "yellow": 70
+    },
+    {
+      "team": "Eintracht Frankfurt",
+      "fouls": 620,
+      "red": 3,
+      "yellow": 77
+    },
+    {
+      "team": "Hertha BSC",
+      "fouls": 564,
+      "red": 1,
+      "yellow": 62
+    },
+    {
+      "team": "Mönchengladbach",
+      "fouls": 700,
+      "red": 0,
+      "yellow": 71
+    },
+    {
+      "team": "VfB Stuttgart",
+      "fouls": 621,
+      "red": 0,
+      "yellow": 69
+    }
+  ]
+},
+{
+  "saison_09_10": [
+    {
+      "team": "VfL Wolfsburg",
+      "fouls": 528,
+      "red": 1,
+      "yellow": 61
+    },
+    {
+      "team": "VfB Stuttgart",
+      "fouls": 554,
+      "red": 2,
+      "yellow": 71
+    },
+    {
+      "team": "Borussia Dortmund",
+      "fouls": 543,
+      "red": 0,
+      "yellow": 50
+    },
+    {
+      "team": "FC Köln",
+      "fouls": 587,
+      "red": 4,
+      "yellow": 70
+    },
+    {
+      "team": "Hertha BSC",
+      "fouls": 475,
+      "red": 2,
+      "yellow": 57
+    },
+    {
+      "team": "Hannover 96",
+      "fouls": 615,
+      "red": 3,
+      "yellow": 64
+    },
+    {
+      "team": "TSG Hoffenheim",
+      "fouls": 626,
+      "red": 3,
+      "yellow": 65
+    },
+    {
+      "team": "Bayern München",
+      "fouls": 515,
+      "red": 1,
+      "yellow": 44
+    },
+    {
+      "team": "Mainz 05",
+      "fouls": 593,
+      "red": 4,
+      "yellow": 59
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "fouls": 560,
+      "red": 3,
+      "yellow": 67
+    },
+    {
+      "team": "VfL Nürnberg",
+      "fouls": 526,
+      "red": 2,
+      "yellow": 54
+    },
+    {
+      "team": "Schalke 04",
+      "fouls": 716,
+      "red": 1,
+      "yellow": 60
+    },
+    {
+      "team": "Werder Bremen",
+      "fouls": 558,
+      "red": 2,
+      "yellow": 51
+    },
+    {
+      "team": "Eintracht Frankfurt",
+      "fouls": 605,
+      "red": 5,
+      "yellow": 62
+    },
+    {
+      "team": "VfL Bochum",
+      "fouls": 578,
+      "red": 4,
+      "yellow": 69
+    },
+    {
+      "team": "Mönchengladbach",
+      "fouls": 565,
+      "red": 1,
+      "yellow": 48
+    },
+    {
+      "team": "SC Freiburg",
+      "fouls": 610,
+      "red": 0,
+      "yellow": 52
+    },
+    {
+      "team": "HSV",
+      "fouls": 619,
+      "red": 3,
+      "yellow": 56
+    }
+  ]
+},
+{
+  "saison_10_11": [
+    {
+      "team": "Bayern München",
+      "fouls": 429,
+      "red": 2,
+      "yellow": 43
+    },
+    {
+      "team": "VfL Wolfsburg",
+      "fouls": 594,
+      "red": 2,
+      "yellow": 71
+    },
+    {
+      "team": "FC Köln",
+      "fouls": 616,
+      "red": 1,
+      "yellow": 79
+    },
+    {
+      "team": "Kaiserslautern",
+      "fouls": 628,
+      "red": 4,
+      "yellow": 59
+    },
+    {
+      "team": "SC Freiburg",
+      "fouls": 556,
+      "red": 3,
+      "yellow": 46
+    },
+    {
+      "team": "St Pauli",
+      "fouls": 566,
+      "red": 5,
+      "yellow": 56
+    },
+    {
+      "team": "HSV",
+      "fouls": 502,
+      "red": 2,
+      "yellow": 53
+    },
+    {
+      "team": "Schalke 04",
+      "fouls": 580,
+      "red": 4,
+      "yellow": 51
+    },
+    {
+      "team": "Hannover 96",
+      "fouls": 595,
+      "red": 5,
+      "yellow": 54
+    },
+    {
+      "team": "Eintracht Frankfurt",
+      "fouls": 514,
+      "red": 3,
+      "yellow": 73
+    },
+    {
+      "team": "TSG Hoffenheim",
+      "fouls": 654,
+      "red": 4,
+      "yellow": 61
+    },
+    {
+      "team": "Werder Bremen",
+      "fouls": 568,
+      "red": 4,
+      "yellow": 67
+    },
+    {
+      "team": "Mönchengladbach",
+      "fouls": 533,
+      "red": 8,
+      "yellow": 51
+    },
+    {
+      "team": "VfL Nürnberg",
+      "fouls": 558,
+      "red": 3,
+      "yellow": 62
+    },
+    {
+      "team": "Borussia Dortmund",
+      "fouls": 501,
+      "red": 1,
+      "yellow": 39
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "fouls": 510,
+      "red": 1,
+      "yellow": 55
+    },
+    {
+      "team": "Mainz 05",
+      "fouls": 561,
+      "red": 1,
+      "yellow": 53
+    },
+    {
+      "team": "VfB Stuttgart",
+      "fouls": 530,
+      "red": 4,
+      "yellow": 65
+    }
+  ]
+},
+{
+  "saison_11_12": [
+    {
+      "team": "Borussia Dortmund",
+      "fouls": 450,
+      "red": 2,
+      "yellow": 33
+    },
+    {
+      "team": "HSV",
+      "fouls": 589,
+      "red": 2,
+      "yellow": 64
+    },
+    {
+      "team": "FC Augsburg",
+      "fouls": 580,
+      "red": 2,
+      "yellow": 69
+    },
+    {
+      "team": "SC Freiburg",
+      "fouls": 577,
+      "red": 1,
+      "yellow": 57
+    },
+    {
+      "team": "FC Köln",
+      "fouls": 528,
+      "red": 6,
+      "yellow": 67
+    },
+    {
+      "team": "VfL Wolfsburg",
+      "fouls": 675,
+      "red": 4,
+      "yellow": 64
+    },
+    {
+      "team": "Hannover 96",
+      "fouls": 551,
+      "red": 4,
+      "yellow": 64
+    },
+    {
+      "team": "TSG Hoffenheim",
+      "fouls": 644,
+      "red": 3,
+      "yellow": 70
+    },
+    {
+      "team": "Hertha BSC",
+      "fouls": 519,
+      "red": 8,
+      "yellow": 64
+    },
+    {
+      "team": "VfL Nürnberg",
+      "fouls": 585,
+      "red": 2,
+      "yellow": 72
+    },
+    {
+      "team": "VfB Stuttgart",
+      "fouls": 545,
+      "red": 4,
+      "yellow": 62
+    },
+    {
+      "team": "Schalke 04",
+      "fouls": 553,
+      "red": 2,
+      "yellow": 63
+    },
+    {
+      "team": "Werder Bremen",
+      "fouls": 548,
+      "red": 5,
+      "yellow": 65
+    },
+    {
+      "team": "Kaiserslautern",
+      "fouls": 601,
+      "red": 4,
+      "yellow": 69
+    },
+    {
+      "team": "Bayern München",
+      "fouls": 472,
+      "red": 3,
+      "yellow": 42
+    },
+    {
+      "team": "Mönchengladbach",
+      "fouls": 428,
+      "red": 1,
+      "yellow": 49
+    },
+    {
+      "team": "Mainz 05",
+      "fouls": 584,
+      "red": 2,
+      "yellow": 49
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "fouls": 495,
+      "red": 4,
+      "yellow": 45
+    }
+  ]
+},
+{
+  "saison_12_13": [
+    {
+      "team": "Borussia Dortmund",
+      "fouls": 456,
+      "red": 4,
+      "yellow": 43
+    },
+    {
+      "team": "Werder Bremen",
+      "fouls": 543,
+      "red": 6,
+      "yellow": 55
+    },
+    {
+      "team": "FC Augsburg",
+      "fouls": 564,
+      "red": 2,
+      "yellow": 69
+    },
+    {
+      "team": "Fortuna Düsseldorf",
+      "fouls": 516,
+      "red": 3,
+      "yellow": 76
+    },
+    {
+      "team": "Eintracht Frankfurt",
+      "fouls": 526,
+      "red": 2,
+      "yellow": 62
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "fouls": 516,
+      "red": 2,
+      "yellow": 61
+    },
+    {
+      "team": "SC Freiburg",
+      "fouls": 515,
+      "red": 3,
+      "yellow": 56
+    },
+    {
+      "team": "Mainz 05",
+      "fouls": 515,
+      "red": 4,
+      "yellow": 69
+    },
+    {
+      "team": "Greuther Führt",
+      "fouls": 651,
+      "red": 6,
+      "yellow": 76
+    },
+    {
+      "team": "Bayern München",
+      "fouls": 440,
+      "red": 1,
+      "yellow": 35
+    },
+    {
+      "team": "HSV",
+      "fouls": 603,
+      "red": 4,
+      "yellow": 67
+    },
+    {
+      "team": "VfL Nürnberg",
+      "fouls": 581,
+      "red": 2,
+      "yellow": 68
+    },
+    {
+      "team": "Mönchengladbach",
+      "fouls": 455,
+      "red": 1,
+      "yellow": 57
+    },
+    {
+      "team": "TSG Hoffenheim",
+      "fouls": 578,
+      "red": 5,
+      "yellow": 73
+    },
+    {
+      "team": "VfB Stuttgart",
+      "fouls": 561,
+      "red": 7,
+      "yellow": 71
+    },
+    {
+      "team": "VfL Wolfsburg",
+      "fouls": 595,
+      "red": 4,
+      "yellow": 59
+    },
+    {
+      "team": "Hannover 96",
+      "fouls": 536,
+      "red": 4,
+      "yellow": 74
+    },
+    {
+      "team": "Schalke 04",
+      "fouls": 501,
+      "red": 3,
+      "yellow": 55
+    }
+  ]
+},
+{
+  "saison_13_14": [
+    {
+      "team": "Bayern München",
+      "fouls": 407,
+      "red": 2,
+      "yellow": 45
+    },
+    {
+      "team": "Mönchengladbach",
+      "fouls": 361,
+      "red": 3,
+      "yellow": 50
+    },
+    {
+      "team": "FC Augsburg",
+      "fouls": 518,
+      "red": 1,
+      "yellow": 61
+    },
+    {
+      "team": "Borussia Dortmund",
+      "fouls": 464,
+      "red": 2,
+      "yellow": 43
+    },
+    {
+      "team": "Eintracht Braunschweig",
+      "fouls": 553,
+      "red": 3,
+      "yellow": 62
+    },
+    {
+      "team": "Werder Bremen",
+      "fouls": 551,
+      "red": 3,
+      "yellow": 73
+    },
+    {
+      "team": "Hannover 96",
+      "fouls": 591,
+      "red": 6,
+      "yellow": 71
+    },
+    {
+      "team": "VfL Wolfsburg",
+      "fouls": 550,
+      "red": 8,
+      "yellow": 54
+    },
+    {
+      "team": "Hertha BSC",
+      "fouls": 552,
+      "red": 1,
+      "yellow": 56
+    },
+    {
+      "team": "Eintracht Frankfurt",
+      "fouls": 556,
+      "red": 2,
+      "yellow": 75
+    },
+    {
+      "team": "TSG Hoffenheim",
+      "fouls": 658,
+      "red": 2,
+      "yellow": 63
+    },
+    {
+      "team": "VfL Nürnberg",
+      "fouls": 524,
+      "red": 4,
+      "yellow": 71
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "fouls": 510,
+      "red": 2,
+      "yellow": 69
+    },
+    {
+      "team": "SC Freiburg",
+      "fouls": 513,
+      "red": 5,
+      "yellow": 62
+    },
+    {
+      "team": "Mainz 05",
+      "fouls": 494,
+      "red": 4,
+      "yellow": 53
+    },
+    {
+      "team": "VfB Stuttgart",
+      "fouls": 507,
+      "red": 5,
+      "yellow": 60
+    },
+    {
+      "team": "Schalke 04",
+      "fouls": 556,
+      "red": 5,
+      "yellow": 53
+    },
+    {
+      "team": "HSV",
+      "fouls": 537,
+      "red": 2,
+      "yellow": 54
+    }
+  ]
+},
+{
+  "saison_14_15": [
+    {
+      "team": "Bayern München",
+      "fouls": 414,
+      "red": 2,
+      "yellow": 37
+    },
+    {
+      "team": "VfL Wolfsburg",
+      "fouls": 454,
+      "red": 1,
+      "yellow": 44
+    },
+    {
+      "team": "Borussia Dortmund",
+      "fouls": 454,
+      "red": 0,
+      "yellow": 54
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "fouls": 609,
+      "red": 4,
+      "yellow": 76
+    },
+    {
+      "team": "Eintracht Frankfurt",
+      "fouls": 569,
+      "red": 3,
+      "yellow": 84
+    },
+    {
+      "team": "SC Freiburg",
+      "fouls": 492,
+      "red": 4,
+      "yellow": 63
+    },
+    {
+      "team": "FC Köln",
+      "fouls": 421,
+      "red": 2,
+      "yellow": 48
+    },
+    {
+      "team": "HSV",
+      "fouls": 618,
+      "red": 5,
+      "yellow": 83
+    },
+    {
+      "team": "Hannover 96",
+      "fouls": 568,
+      "red": 5,
+      "yellow": 72
+    },
+    {
+      "team": "Schalke 04",
+      "fouls": 517,
+      "red": 4,
+      "yellow": 65
+    },
+    {
+      "team": "Hertha BSC",
+      "fouls": 589,
+      "red": 4,
+      "yellow": 72
+    },
+    {
+      "team": "Werder Bremen",
+      "fouls": 588,
+      "red": 2,
+      "yellow": 67
+    },
+    {
+      "team": "TSG Hoffenheim",
+      "fouls": 600,
+      "red": 2,
+      "yellow": 66
+    },
+    {
+      "team": "FC Augsburg",
+      "fouls": 552,
+      "red": 3,
+      "yellow": 61
+    },
+    {
+      "team": "Mönchengladbach",
+      "fouls": 416,
+      "red": 2,
+      "yellow": 54
+    },
+    {
+      "team": "VfB Stuttgart",
+      "fouls": 504,
+      "red": 5,
+      "yellow": 59
+    },
+    {
+      "team": "SC Paderborn",
+      "fouls": 484,
+      "red": 3,
+      "yellow": 51
+    },
+    {
+      "team": "Mainz 05",
+      "fouls": 495,
+      "red": 2,
+      "yellow": 53
+    }
+  ]
+},
+{
+  "saison_15_16": [
+    {
+      "team": "Bayern München",
+      "fouls": 380,
+      "red": 1,
+      "yellow": 44
+    },
+    {
+      "team": "HSV",
+      "fouls": 576,
+      "red": 3,
+      "yellow": 73
+    },
+    {
+      "team": "FC Augsburg",
+      "fouls": 532,
+      "red": 2,
+      "yellow": 81
+    },
+    {
+      "team": "Hertha BSC",
+      "fouls": 481,
+      "red": 3,
+      "yellow": 66
+    },
+    {
+      "team": "SV Darmstadt",
+      "fouls": 557,
+      "red": 1,
+      "yellow": 86
+    },
+    {
+      "team": "Hannover 96",
+      "fouls": 520,
+      "red": 0,
+      "yellow": 66
+    },
+    {
+      "team": "Borussia Dortmund",
+      "fouls": 391,
+      "red": 0,
+      "yellow": 39
+    },
+    {
+      "team": "Mönchengladbach",
+      "fouls": 461,
+      "red": 3,
+      "yellow": 45
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "fouls": 525,
+      "red": 4,
+      "yellow": 65
+    },
+    {
+      "team": "TSG Hoffenheim",
+      "fouls": 469,
+      "red": 3,
+      "yellow": 56
+    },
+    {
+      "team": "Mainz 05",
+      "fouls": 528,
+      "red": 1,
+      "yellow": 53
+    },
+    {
+      "team": "FC Ingolstadt",
+      "fouls": 526,
+      "red": 2,
+      "yellow": 79
+    },
+    {
+      "team": "Werder Bremen",
+      "fouls": 520,
+      "red": 2,
+      "yellow": 77
+    },
+    {
+      "team": "Schalke 04",
+      "fouls": 506,
+      "red": 1,
+      "yellow": 64
+    },
+    {
+      "team": "VfB Stuttgart",
+      "fouls": 506,
+      "red": 5,
+      "yellow": 64
+    },
+    {
+      "team": "FC Köln",
+      "fouls": 436,
+      "red": 2,
+      "yellow": 55
+    },
+    {
+      "team": "VfL Wolfsburg",
+      "fouls": 457,
+      "red": 3,
+      "yellow": 55
+    },
+    {
+      "team": "Eintracht Frankfurt",
+      "fouls": 517,
+      "red": 3,
+      "yellow": 93
+    }
+  ]
+},
+{
+  "saison_16_17": [
+    {
+      "team": "Bayern München",
+      "fouls": 360,
+      "red": 0,
+      "yellow": 47
+    },
+    {
+      "team": "Werder Bremen",
+      "fouls": 476,
+      "red": 2,
+      "yellow": 67
+    },
+    {
+      "team": "FC Augsburg",
+      "fouls": 494,
+      "red": 3,
+      "yellow": 66
+    },
+    {
+      "team": "VfL Wolfsburg",
+      "fouls": 513,
+      "red": 3,
+      "yellow": 65
+    },
+    {
+      "team": "Borussia Dortmund",
+      "fouls": 413,
+      "red": 2,
+      "yellow": 55
+    },
+    {
+      "team": "Mainz 05",
+      "fouls": 493,
+      "red": 7,
+      "yellow": 67
+    },
+    {
+      "team": "Eintracht Frankfurt",
+      "fouls": 538,
+      "red": 6,
+      "yellow": 82
+    },
+    {
+      "team": "Schalke 04",
+      "fouls": 508,
+      "red": 3,
+      "yellow": 69
+    },
+    {
+      "team": "FC Köln",
+      "fouls": 476,
+      "red": 1,
+      "yellow": 72
+    },
+    {
+      "team": "SV Darmstadt",
+      "fouls": 516,
+      "red": 5,
+      "yellow": 67
+    },
+    {
+      "team": "HSV",
+      "fouls": 564,
+      "red": 5,
+      "yellow": 73
+    },
+    {
+      "team": "FC Ingolstadt",
+      "fouls": 554,
+      "red": 6,
+      "yellow": 69
+    },
+    {
+      "team": "Mönchengladbach",
+      "fouls": 419,
+      "red": 2,
+      "yellow": 46
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "fouls": 478,
+      "red": 4,
+      "yellow": 50
+    },
+    {
+      "team": "Hertha BSC",
+      "fouls": 473,
+      "red": 3,
+      "yellow": 63
+    },
+    {
+      "team": "SC Freiburg",
+      "fouls": 445,
+      "red": 1,
+      "yellow": 56
+    },
+    {
+      "team": "TSG Hoffenheim",
+      "fouls": 514,
+      "red": 1,
+      "yellow": 63
+    },
+    {
+      "team": "RB Leipzig",
+      "fouls": 523,
+      "red": 2,
+      "yellow": 66
+    }
+  ]
+}
+]

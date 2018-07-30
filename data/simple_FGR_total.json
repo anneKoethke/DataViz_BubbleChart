@@ -42,14 +42,12 @@
   {
     "team": "HSV",
     "kind": "yellow",
-    "yellow": 714
+    "value": 714
   },
   {
     "team": "Arminia Bielefeld",
     "kind": "foul",
-    "value": 1536,
-    "red": 7,
-    "yellow": 173
+    "value": 1536
   },
   {
     "team": "Arminia Bielefeld",
@@ -305,9 +303,7 @@
   {
     "team": "Karlsruher SC",
     "kind": "foul",
-    "value": 1175,
-    "red": 3,
-    "yellow": 120
+    "value": 1175
   },
   {
     "team": "Karlsruher SC",
@@ -322,9 +318,7 @@
   {
     "team": "TSG Hoffenheim",
     "kind": "foul",
-    "value": 5435,
-    "red": 29,
-    "yellow": 588
+    "value": 5435
   }, 
   {
     "team": "TSG Hoffenheim",
@@ -489,9 +483,7 @@
   {
     "team": "FC Ingolstadt",
     "kind": "foul",
-    "value": 1080,
-    "red": 8,
-    "yellow": 148
+    "value": 1080
   },
   {
     "team": "FC Ingolstadt",
